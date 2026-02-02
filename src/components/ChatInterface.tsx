@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Button } from './ui/button'
 import { Input } from './ui/input'
 import { Card, CardContent } from './ui/card'
-import { Message } from '../types'
+import type { Message } from '../types'
 import { Send, Bot, User, Terminal } from 'lucide-react'
 
 export function ChatInterface() {
